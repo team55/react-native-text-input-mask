@@ -3,6 +3,7 @@
   "version": "1.0.6",
   "description": "Text input mask for React Native.",
   "main": "index.js",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/react-native-community/react-native-text-input-mask"
