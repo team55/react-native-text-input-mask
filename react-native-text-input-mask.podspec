@@ -4,7 +4,7 @@ require 'json'
 package = JSON.parse(File.read('package.json'))
 
 Pod::Spec.new do |s|
-  s.name         = "react-native-geolocation"
+  s.name         = "react-native-text-input-mask"
   s.version      = package['version']
   s.summary      = package['description']
   s.license      = package['license']
