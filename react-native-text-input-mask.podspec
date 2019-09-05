@@ -13,7 +13,8 @@ Pod::Spec.new do |s|
   s.homepage     = package['homepage']
   s.platform     = :ios, "9.0"
 
-  s.source       = { :git => "https://github.com/team55/react-native-text-input-mask.git", :tag => "#{s.version}" }
+#   s.source       = { :git => "https://github.com/team55/react-native-text-input-mask.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/team55/react-native-text-input-mask.git" }
   s.source_files  = "ios/**/*.{h,m}"
 
   s.dependency 'React'
